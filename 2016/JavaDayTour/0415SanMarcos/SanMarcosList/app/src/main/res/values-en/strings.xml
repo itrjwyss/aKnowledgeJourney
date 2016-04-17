@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">San mñoiuy List</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_road_sign_list">RoadSignListActivity</string>
+</resources>
