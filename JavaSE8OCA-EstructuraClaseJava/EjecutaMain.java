@@ -7,9 +7,9 @@ public class EjecutaMain {
          */
         Casa casaSinParametros = new Casa();
 
-        //imprimir los los valores de cada atributo
+        //imprimir los valores de cada atributo
         System.out.println("* Atributos Constructor sin Parámetros *");
-        System.out.println("Habitaciones: " + casaSinParametros.habitantes);
+        System.out.println("Habitantes: " + casaSinParametros.habitantes);
         System.out.println("Mascotas: " + casaSinParametros.mascotas);
         System.out.println("Cuartos: " + casaSinParametros.cuartos);
         System.out.println("Paredes: " + casaSinParametros.colorParedes);
@@ -23,9 +23,8 @@ public class EjecutaMain {
         Casa casaConParametros = new Casa(5, 2, 3, "Celeste", "Blanco");
 
         //imprimir los valores de cada atributo
-
         System.out.println("* Atributos Constructor con Parámetros *");
-        System.out.println("Habitaciones: " + casaConParametros.habitantes);
+        System.out.println("Habitantes: " + casaConParametros.habitantes);
         System.out.println("Mascotas: " + casaConParametros.mascotas);
         System.out.println("Cuartos: " + casaConParametros.cuartos);
         System.out.println("Paredes: " + casaConParametros.colorParedes);
